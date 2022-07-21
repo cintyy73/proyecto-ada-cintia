@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.portada-saul{
+    height: 100vh;
+    width:100%;
+    margin: 0;
+}
+
+.portada{
+    background-image: url(./portada.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 1115px;
+    margin: 0;
+}
+
+.titulo{
+    width: 95%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;   
+}
+
+.texto{
+    align-self: center;
+    color:rgb(193, 186, 186);
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    margin-top: 20px;
+}
+#nav-espejos-saul{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+#nav-espejos{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.espejos{
+    width: 200px;
+    margin: 5px;
+}
+
+#tarjetas-saul{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;  
+    margin-top: 20px;
+}
+
+#tarjetas{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;  
+    margin-top: 20px;   
+}
+span{
+    background-color: transparent;
+}
+
+p{
+    background-color: transparent;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    margin: 20px;   
+}
+
+.card-image{
+    background-color: grey;
+    text-align: center;
+}
+.card{
+    padding: 2px;
+    border: solid 2px green;
+    background-color: gray;
+    box-shadow: 5px 5px 5px 0px rgba(234,222,222,0.68);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(234,222,222,0.68);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(234,222,222,0.68);
+}
+.img-card{
+    width: 299px;
+    height: 300px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: gray;
+    color: black;  
+}
+
+.card-content{
+    background-color: gray;
+    text-align: left;
+}
+
+
+footer{ 
+    color: white;
+}
